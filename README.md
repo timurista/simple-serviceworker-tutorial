@@ -1,3 +1,8 @@
+# Service Worker what is it?
+
+- [Service Worker](docs/service-worker.md)
+
+
 # What is this?
 
 It's a really simple ServiceWorker example. No build systems, (almost) no dependencies. It's designed to be an interactive introduction to the kinds of things you can do with ServiceWorker.
