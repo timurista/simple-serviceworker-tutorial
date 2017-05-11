@@ -7,6 +7,9 @@ Can be thought of as "Shared Workers that can start, process events, and die wit
 
 **If you are familiar with MVC, the service worker can be thought of as taking position as the Controller for the page itself**
 
+## MultiThreading?
+With the introduction of Web Workers in html 5, an api was introduced to allow actions or scripts to be run a separate thread. This is costly however for the browsers memory resources, so they should be used lightly.
+
 ### Key features
 - It is event-driven
 - Is a javascript file that can control web page it is registered on, modfiying navigation and resource requests, and caches resources in a granual fashion ( to improve loading time of your page)
