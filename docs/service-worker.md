@@ -42,7 +42,7 @@ navigator.serviceWorker.register('sw.js', {
         scope: './'
       });
 
-// LIFECYCLE Donwload -> IN=nstall --> Activate
+// LIFECYCLE Donwload -> Innstall --> Activate
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
