@@ -22,6 +22,7 @@ With the introduction of Web Workers in html 5, an api was introduced to allow a
 - can't use local storage or XHR inside a service worker
 - only on https sites only.
 - user needs to manage and be more aware of the interaction between service workers and websites. 
+- browser will often manage service workers by removing idle ones to save memory. (but there are methods such as waitUntil which can be called to keep the service worker alive a little longer until it finishes)
 
 ## Differences with shared worker
 Like Shared Worker
