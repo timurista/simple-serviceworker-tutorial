@@ -124,7 +124,7 @@ self.addEventListener('fetch', function(event) {
 });
 ```
 
-[Demo For RespondWith](https://jakearchibald.github.io/isserviceworkerready/demos/img-rewrite/)
+[Demo For RespondWith - rewrite the image requested from the server](https://jakearchibald.github.io/isserviceworkerready/demos/img-rewrite/)
 
 ### The Cache
 Service worker comes with a caching API, letting you create stores of responses keyed by request.
@@ -160,7 +160,7 @@ self.addEventListener('fetch', function(event) {
 - geofencing... selecting services based on location of the user.
 
 ## Online examples
-[Patterns To Emulate](https://serviceworke.rs)
+[Service Worker Examples for Demo](https://serviceworke.rs)
 
 ## When can I use it?
 [Is service worker ready?](https://jakearchibald.github.io/isserviceworkerready/)
