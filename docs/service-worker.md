@@ -56,8 +56,15 @@ self.addEventListener('activate', function(event) {
 
 ```
 
+## Inspecting in chrome
+- Frist open Chrome dev tools
+- You can see the current running service workers by going to `Application`
+- You can also see the events run through a service worker in the network tab.
 
 ## Heavy use of Promises
+
+Promise is a class which takes a resolve or reject parameter and returns the resolved value. If the result is sucessful, then you can chain another promise or simply return the value.
+
 ```js
 var promise = new Promise(function(resolve, reject) {
   // do a thing, possibly async, then…
