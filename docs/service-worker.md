@@ -33,7 +33,6 @@ Like Shared Worker
 Unlike shared worker
 - Can run without any page at all
 - Can terminate when it isn’t in use, and run again when needed (i.e., it’s event-driven)
-- Has a defined upgrade model
 - Is HTTPS only (more on that in a bit)
 
 ## How to implement it
